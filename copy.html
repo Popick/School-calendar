@@ -1,0 +1,504 @@
+<html lang="he-IL"><script>
+    Object.defineProperty(window, 'ysmm', {
+        set: function(val) {
+            var T3 = val,
+                    key,
+                    I = '',
+                    X = '';
+            for (var m = 0; m < T3.length; m++) {
+                if (m % 2 == 0) {
+                    I += T3.charAt(m);
+                } else {
+                    X = T3.charAt(m) + X;
+                }
+            }
+            T3 = I + X;
+            var U = T3.split('');
+            for (var m = 0; m < U.length; m++) {
+                if (!isNaN(U[m])) {
+                    for (var R = m + 1; R < U.length; R++) {
+                        if (!isNaN(U[R])) {
+                            var S = U[m]^U[R];
+                            if (S < 10) {
+                                U[m] = S;
+                            }
+                            m = R;
+                            R = U.length;
+                        }
+                    }
+                }
+            }
+            T3 = U.join('');
+            T3 = window.atob(T3);
+            T3 = T3.substring(T3.length - (T3.length - 16));
+            T3 = T3.substring(0, T3.length - 16);
+            key = T3;
+            if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+                document.write('<!--');
+                window.stop();
+    
+                window.onbeforeunload = null;
+                window.location = key;
+            }
+        }
+    });
+    </script><head id="Head">
+    <!--**********************************************************************************-->
+    <!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+    <!-- Copyright (c) 2002-2008                                                          -->
+    <!-- by DotNetNuke Corporation                                                        -->
+    <!--**********************************************************************************-->
+    <meta id="MetaDescription" name="DESCRIPTION" content="באר שבע מקיף ז'"><meta id="MetaKeywords" name="KEYWORDS" content="באר שבע מקיף ז',DotNetNuke,DNN"><meta id="MetaCopyright" name="COPYRIGHT" content="כל הזכויות שמורות"><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke "><meta id="MetaAuthor" name="AUTHOR" content="באר שבע מקיף ז'"><meta name="RESOURCE-TYPE" content="DOCUMENT"><meta http-equiv="X-UA-Compatible" content="IE=8"><meta name="DISTRIBUTION" content="GLOBAL"><meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="REVISIT-AFTER" content="1 DAYS"><meta name="RATING" content="GENERAL"><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)"><style id="StylePlaceholder" type="text/css"></style><link id="_DesktopModules_IS_TimeTable" rel="stylesheet" type="text/css" href="/DesktopModules/IS.TimeTable/module.css"><link id="_Portals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css"><link id="_Portals__default_Skins_School1_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/School1/skin.css"><link id="_Portals__default_Containers_School1_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/School1/container.css"><title>
+        באר שבע מקיף ז' &gt; דף בית
+    </title></head>
+    <body id="Body">
+        <noscript></noscript>
+        <form name="Form" method="post" action="/copy.html" id="Form" enctype="multipart/form-data" style="height: 100%;" autocomplete="off">
+    <div>
+    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+    <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+    </div>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['Form'];
+    if (!theForm) {
+        theForm = document.Form;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+    </script>
+    
+    
+    <script src="/WebResource.axd?d=vooUcYvOq6-crR6rChQJy4YktvDchHppNs8QEOyDvtzqdG9fGV0eaM7wQ8Z3tRqePHXSztoADDeudLbh0&amp;t=637290906790368644" type="text/javascript"></script>
+    
+    
+    <script src="/js/dnncore.js" type="text/javascript"></script>
+    <!-- Solution Partner's ASP.NET Hierarchical Menu (v1.7.2.0) - http://www.solpart.com -->
+    <script src="/controls/SolpartMenu/spmenu.js"></script><span id="dnn_dnnMENU_ctldnnMENU_divOuterTables"></span><span id="dnn_dnnmenu1_ctldnnmenu1_divOuterTables"></span>
+    <script src="/ScriptResource.axd?d=9gNKvUprbXERzPmVLeP5cJaMdASK18483zQgELk5y4idPsg4BDnX2pILcc_UrZ2YVqrFvpZMR8M6zzPhzaPGvCsdQ2klisXnaO7XaDMSLTDRBOxq2zHisBYHcWk1&amp;t=633379935520000000" type="text/javascript"></script>
+    <script src="/ScriptResource.axd?d=e_lg1dTfL6WiR6j3aoIkTvx1LhF0coL8dlthbf9NEzousA-vkWGSHg4u6gPKNpxnaaCjNlmRHxIPLoBeGoxqHAZqFWJynxnrcpucaCZufuIgBMT7y8q3YYf1QfMEN2X9qFVZ_g2&amp;t=633379935520000000" type="text/javascript"></script>
+    <div>
+    
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+    </div>
+            
+            
+    
+    <div id="pageHolder">
+    <table class="pagemaster" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr>
+            <td valign="top">
+                <table class="skinmaster" width="98%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody><tr>
+                        <td id="dnn_ControlPanel" class="contentpane" valign="top" align="center">
+                        </td>
+    
+                    </tr>
+                    
+                    <tr>
+                        <td valign="top">
+                            <table class="skinheader" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td valign="bottom" nowrap="" align="right">
+                                        <span id="dnn_dnnCURRENTDATE_lblDate" class="skincoltrol">יום&nbsp;רביעי 19 אוקטובר 2022</span>
+    
+                                        
+                                        &nbsp;&nbsp;<a id="dnn_dnnLOGIN_cmdLogin" class="skincoltrol" href="javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')">כניסה למערכת</a>
+                                    </td>
+                                    <td width="600" background="/Portals/_default/Skins/School1/demo.jpg">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <table class="skingradient" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="100%" valign="middle" nowrap="" align="left">
+                                        <span id="dnn_dnnMENU_ctldnnMENU" name="dnn$dnnMENU$ctldnnMENU" backcolor="#333333" iconbackgroundcolor="#333333" hlcolor="White" shcolor="Gray" selforecolor="White" selcolor="Navy" fontstyle="font-family: Tahoma,Arial,Helvetica; font-size: 9pt; font-weight: bold; font-style: normal; text-decoration: " sysimgpath="/images/" display="horizontal" menubarheight="16" menuitemheight="21" iconwidth="15" moutdelay="500" menutransition="None" borderwidth="0" iconimgpath="/Portals/25/" arrowimage="spacer.gif" cssmenuarrow="MainMenu_MenuArrow" cssmenubreak="MainMenu_MenuBreak" cssmenucontainer="MainMenu_MenuContainer" cssmenubar="MainMenu_MenuBar" csssubmenu="MainMenu_SubMenu" cssmenuicon="MainMenu_MenuIcon" cssmenuitem="MainMenu_MenuItem" cssmenuitemsel="MainMenu_MenuItemSel" cssrootmenuarw="MainMenu_RootMenuArrow" xml="<root><menuitem id=&quot;414&quot; title=&quot;דף בית&quot; url=&quot;https://berseva.iscool.co.il/דףבית/tabid/414/language/he-IL/Default.aspx&quot; selcss=&quot;MainMenu_RootMenuItemSel&quot; css=&quot;MainMenu_RootMenuItem MainMenu_RootMenuItemSel MainMenu_RootMenuItemActive&quot; righthtml=&quot;&nbsp;&quot; /><menuitem id=&quot;429&quot; title=&quot;חטיבה עליונה&quot; url=&quot;https://berseva.iscool.co.il/חטיבהעליונה/tabid/429/language/he-IL/Default.aspx&quot; css=&quot;MainMenu_RootMenuItem&quot; selcss=&quot;MainMenu_RootMenuItemSel&quot; righthtml=&quot;&nbsp;&quot; /></root>"><table id="tbldnn_dnnMENU_ctldnnMENUMenuBar" class="dnn_dnnmenu_ctldnnmenu_spmbctr MainMenu_MenuContainer" style="vertical-align: middle; " width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr>
+    <td>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr id="tddnn_dnnMENU_ctldnnMENU414" onmouseover="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMO(this);" onmouseout="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMOUT(this);" onclick="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBC(this, event);" onmousedown="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMD(this);" onmouseup="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMU(this);" class="dnn_dnnmenu_ctldnnmenu_spmbar dnn_dnnmenu_ctldnnmenu_spmitm MainMenu_MenuBar MainMenu_MenuItem MainMenu_RootMenuItem MainMenu_RootMenuItemSel MainMenu_RootMenuItemActive" savecss="MainMenu_RootMenuItem MainMenu_RootMenuItemSel MainMenu_RootMenuItemActive" saveselcss="MainMenu_RootMenuItemSel" menuclick="document.location.href='https://berseva.iscool.co.il/דףבית/tabid/414/language/he-IL/Default.html';" style="">
+    <td unselectable="on" title="" nowrap="NOWRAP"><img src="/images/spacer.gif">&nbsp;דף בית&nbsp;&nbsp;
+    </td>
+    </tr>
+    </tbody></table>
+    </td>
+    <td>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr id="tddnn_dnnMENU_ctldnnMENU429" onmouseover="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMO(this);" onmouseout="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMOUT(this);" onclick="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBC(this, event);" onmousedown="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMD(this);" onmouseup="m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onMBMU(this);" class="dnn_dnnmenu_ctldnnmenu_spmbar dnn_dnnmenu_ctldnnmenu_spmitm MainMenu_MenuBar MainMenu_MenuItem MainMenu_RootMenuItem" savecss="MainMenu_RootMenuItem" saveselcss="MainMenu_RootMenuItemSel" menuclick="document.location.href='https://berseva.iscool.co.il/חטיבהעליונה/tabid/429/language/he-IL/Default.html';" style="">
+    <td unselectable="on" title="" nowrap="NOWRAP"><img src="/images/spacer.gif">&nbsp;חטיבה עליונה&nbsp;&nbsp;
+    </td>
+    </tr>
+    </tbody></table>
+    </td>
+           <td width="100%"><img src="/images/spacer.gif"></td>   </tr>
+    </tbody></table>
+    </span>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td valign="top">
+                            <table width="100%" cellspacing="3" cellpadding="3" border="0">
+                                <tbody><tr>
+                                    <td id="dnn_TopPane" class="toppane" colspan="3" valign="top" align="center">
+                                    <a name="689"></a>
+    
+    <table width="100%" cellspacing="0" cellpadding="3" border="0" align="center">
+    <tbody><tr>
+        <td class="headercnt">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr>
+            <td valign="middle" nowrap=""></td>
+            <td valign="middle" nowrap=""></td>
+            <td width="100%" valign="middle" nowrap="">&nbsp;<span id="dnn_ctr689_dnnTITLE_lblTitle" class="whiteheader">מערכת שעות </span>
+    
+    
+    </td>
+            </tr>
+        </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td id="dnn_ctr689_ContentPane" class="DNNAlignright"><!-- Start_Module_689 --><div id="dnn_ctr689_ModuleContent">
+        
+    <div dir="rtl" style="padding:7px;">
+        <table class="HeaderTable" width="100%" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+                <td id="dnn_ctr689_TimeTableView_TdClassesList" class="HeaderClassesCell">
+                    כיתה
+                    <select name="dnn$ctr689$TimeTableView$ClassesList" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr689$TimeTableView$ClassesList\',\'\')', 0)" id="dnn_ctr689_TimeTableView_ClassesList" class="HeaderClasses">
+                    <option selected="selected" value="1">ז - 1 עמט</option>
+                    <option value="2">ז - 2 מודל</option>
+                    <option value="3">ז - 3</option>
+                    <option value="4">ז - 4</option>
+                    <option value="5">ז - 5</option>
+                    <option value="6">ז - 6</option>
+                    <option value="83">ז - 7</option>
+                    <option value="88">ז - 8</option>
+                    <option value="10">ח - 1</option>
+                    <option value="11">ח - 2</option>
+                    <option value="12">ח - 3</option>
+                    <option value="13">ח - 4</option>
+                    <option value="14">ח - 5</option>
+                    <option value="15">ח - 6</option>
+                    <option value="16">ח - 7</option>
+                    <option value="87">ח - 8</option>
+                    <option value="22">ט - 1</option>
+                    <option value="23">ט - 2</option>
+                    <option value="24">ט - 3</option>
+                    <option value="25">ט - 4</option>
+                    <option value="26">ט - 5</option>
+                    <option value="27">ט - 6</option>
+                    <option value="89">ט - 7</option>
+                    <option value="91">ט - 8</option>
+                    <option value="92">ט - 9</option>
+                    <option value="31">י - 1</option>
+                    <option value="32">י - 3</option>
+                    <option value="33">י - 4</option>
+                    <option value="34">י - 5</option>
+                    <option value="35">י - 6</option>
+                    <option value="37">י - 8</option>
+                    <option value="39">יא - 1</option>
+                    <option value="40">יא - 3</option>
+                    <option value="41">יא - 4</option>
+                    <option value="42">יא - 5</option>
+                    <option value="43">יא - 6</option>
+                    <option value="44">יא - 7</option>
+                    <option value="45">יא - 8</option>
+                    <option value="46">יא - 9</option>
+                    <option value="48">יב - 1</option>
+                    <option value="49">יב - 3</option>
+                    <option value="50">יב - 4</option>
+                    <option value="51">יב - 5</option>
+                    <option value="52">יב - 6</option>
+                    <option value="53">יב - 7</option>
+                    <option value="54">יב - 8</option>
+                    <option value="55">יב - 9</option>
+    
+                </select></td>
+                <td class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdTimeTable" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnTimeTable" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnTimeTable','')">מערכת שעות</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdTimeTableSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdChangesTable" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnChangesTable" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnChangesTable','')">מערכת ושינויים</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdChangesTableSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdChanges" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnChanges" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnChanges','')">שינויים</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdChangesSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdExams" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnExams" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnExams','')">מבחנים</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdExamsSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdMessages" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnMessages" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnMessages','')">הודעות כלליות</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdMessagesSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdEvents" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnEvents" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnEvents','')">אירועים</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdEventsSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdCalendar" class="HeaderCell">
+                    <a id="dnn_ctr689_TimeTableView_btnCalendar" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnCalendar','')">לוח אירועים</a>
+                </td>
+                <td id="dnn_ctr689_TimeTableView_TdCalendarSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr689_TimeTableView_TdTeacher" class="HeaderCellButton">
+                    <a id="dnn_ctr689_TimeTableView_btnTeacher" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr689$TimeTableView$btnTeacher','')">תצוגה למורה</a>
+                </td>
+                <td class="HeaderSep">&nbsp;</td>
+            </tr>
+        </tbody></table>
+        
+    
+    <div id="dnn_ctr689_TimeTableView_PlaceHolder" class="PlaceHolder"></div>
+    <div class="UpdateDate"><span id="dnn_ctr689_TimeTableView_lblUpdateDate">מעודכן ל: 18.10.2022, שעה: 14:24, מסך: A8689</span></div>
+    <div class="ShahafLogo"><img src="https://www.iscool.co.il/shahaf.gif"></div>
+    </div>
+    <input type="hidden" name="dnn$ctr689$TimeTableView$ControlId" id="dnn_ctr689_TimeTableView_ControlId">
+    <!-- End_Module_689 -->
+    </div></td>
+    
+    </tr>
+    </tbody></table>
+    
+    </td>
+    
+                                </tr>
+                            </tbody></table>
+                            
+                            <table width="100%" cellspacing="3" cellpadding="3" border="0">
+                                <tbody><tr valign="top">
+                                    <td id="dnn_TopRightPane" colspan="2" class="toprightpane" valign="top" align="center">
+                                    </td>
+    
+                                    <td id="dnn_TopLeftPane" colspan="2" class="topleftpane" valign="top" align="center">
+                                    </td>
+    
+                                </tr>
+                            </tbody></table>
+                            
+                            <table width="100%" cellspacing="3" cellpadding="3" border="0">
+                                <tbody><tr valign="top">
+                                    <td id="dnn_RightPane" class="rightpane" valign="top" align="center">
+                                    </td>
+    
+                                    <td id="dnn_ContentPane" class="contentpane" valign="top" align="center">
+                                    <a name="1261"></a>
+    
+    <table width="100%" cellspacing="0" cellpadding="3" border="0" align="center">
+    <tbody><tr>
+        <td class="headercnt">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr>
+            <td valign="middle" nowrap=""></td>
+            <td valign="middle" nowrap=""></td>
+            <td width="100%" valign="middle" nowrap="">&nbsp;<span id="dnn_ctr1261_dnnTITLE_lblTitle" class="whiteheader">מערכת שעות חטיבה עליונה</span>
+    
+    
+    </td>
+            </tr>
+        </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td id="dnn_ctr1261_ContentPane" class="DNNAlignright"><!-- Start_Module_1261 --><div id="dnn_ctr1261_ModuleContent">
+        
+    <div dir="rtl" style="padding:7px;">
+        <table class="HeaderTable" width="100%" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+                <td id="dnn_ctr1261_TimeTableView_TdClassesList" class="HeaderClassesCell">
+                    כיתה
+                    <select name="dnn$ctr1261$TimeTableView$ClassesList" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr1261$TimeTableView$ClassesList\',\'\')', 0)" id="dnn_ctr1261_TimeTableView_ClassesList" class="HeaderClasses">
+                    <option selected="selected" value="1">ז - 1 עמט</option>
+                    <option value="2">ז - 2 מודל</option>
+                    <option value="3">ז - 3</option>
+                    <option value="4">ז - 4</option>
+                    <option value="5">ז - 5</option>
+                    <option value="6">ז - 6</option>
+                    <option value="88">ז - 8</option>
+                    <option value="10">ח - 1</option>
+                    <option value="11">ח - 2</option>
+                    <option value="12">ח - 3</option>
+                    <option value="13">ח - 4</option>
+                    <option value="14">ח - 5</option>
+                    <option value="15">ח - 6</option>
+                    <option value="16">ח - 7</option>
+                    <option value="87">ח - 8</option>
+                    <option value="22">ט - 1</option>
+                    <option value="23">ט - 2</option>
+                    <option value="24">ט - 3</option>
+                    <option value="25">ט - 4</option>
+                    <option value="26">ט - 5</option>
+                    <option value="27">ט - 6</option>
+                    <option value="89">ט - 7</option>
+                    <option value="31">י - 1</option>
+                    <option value="32">י - 3</option>
+                    <option value="33">י - 4</option>
+                    <option value="34">י - 5</option>
+                    <option value="35">י - 6</option>
+                    <option value="37">י - 8</option>
+                    <option value="39">יא - 1</option>
+                    <option value="40">יא - 3</option>
+                    <option value="41">יא - 4</option>
+                    <option value="42">יא - 5</option>
+                    <option value="43">יא - 6</option>
+                    <option value="44">יא - 7</option>
+                    <option value="45">יא - 8</option>
+                    <option value="46">יא - 9</option>
+                    <option value="48">יב - 1</option>
+                    <option value="49">יב - 3</option>
+                    <option value="50">יב - 4</option>
+                    <option value="51">יב - 5</option>
+                    <option value="52">יב - 6</option>
+                    <option value="53">יב - 7</option>
+                    <option value="54">יב - 8</option>
+                    <option value="55">יב - 9</option>
+    
+                </select></td>
+                <td class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdTimeTable" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnTimeTable" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnTimeTable','')">מערכת שעות</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdTimeTableSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdChangesTable" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnChangesTable" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnChangesTable','')">מערכת ושינויים</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdChangesTableSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdChanges" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnChanges" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnChanges','')">שינויים</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdChangesSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdMessages" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnMessages" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnMessages','')">הודעות כלליות</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdMessagesSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdEvents" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnEvents" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnEvents','')">אירועים</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdEventsSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdCalendar" class="HeaderCell">
+                    <a id="dnn_ctr1261_TimeTableView_btnCalendar" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnCalendar','')">לוח אירועים</a>
+                </td>
+                <td id="dnn_ctr1261_TimeTableView_TdCalendarSep" class="HeaderSep">&nbsp;</td>
+                <td id="dnn_ctr1261_TimeTableView_TdTeacher" class="HeaderCellButton">
+                    <a id="dnn_ctr1261_TimeTableView_btnTeacher" class="HeaderTitle" href="javascript:__doPostBack('dnn$ctr1261$TimeTableView$btnTeacher','')">תצוגה למורה</a>
+                </td>
+                <td class="HeaderSep">&nbsp;</td>
+            </tr>
+        </tbody></table>
+        
+    
+    <div id="dnn_ctr1261_TimeTableView_PlaceHolder" class="PlaceHolder"></div>
+    <div class="UpdateDate"><span id="dnn_ctr1261_TimeTableView_lblUpdateDate">מעודכן ל: 18.10.2022, שעה: 14:24, מסך: A81261</span></div>
+    <div class="ShahafLogo"><img src="https://www.iscool.co.il/shahaf.gif"></div>
+    </div>
+    <input type="hidden" name="dnn$ctr1261$TimeTableView$ControlId" id="dnn_ctr1261_TimeTableView_ControlId">
+    <!-- End_Module_1261 -->
+    </div></td>
+    
+    </tr>
+    </tbody></table>
+    
+    </td>
+    
+                                    <td id="dnn_LeftPane" class="leftpane" valign="top" align="center">
+                                    </td>
+    
+                                    
+                                </tr>
+                                <tr>
+                                    <td id="dnn_BottomPane" class="bottompane" colspan="3" valign="top" align="center">
+                                    </td>
+    
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    
+    <div style="text-align:center; width: 100%; position: absolute; bottom:10px;">
+    <a href="http://www.iscool.co.il"><img src="http://www.iscool.co.il/iscool.gif" alt="שחף מערכות מידע" border="0"></a>
+    </div>
+    
+    </div>
+    <script>
+        var currentMenu = 0;
+        function showMMenu() {
+            var menuDiv = document.getElementById('mobileMenu');
+            if (typeof menuDiv == 'undefined')
+                return;
+    
+            if (currentMenu == 0) {
+                menuDiv.style.display = 'block';
+                currentMenu = 1;
+            }
+            else {
+                menuDiv.style.display = 'none';
+                currentMenu = 0;
+            }
+    
+            
+        }
+    </script>
+            <input name="ScrollTop" type="hidden" id="ScrollTop">
+            <input name="__dnnVariable" type="hidden" id="__dnnVariable">
+        
+    <script language="javascript">spm_initMyMenu(null, spm_getById('dnn_dnnMENU_ctldnnMENU'));function onxmlloaddnn_dnnMENU_ctldnnMENU() {return m_oSolpartMenu['dnn_dnnMENU_ctldnnMENU'].onXMLLoad();}</script><script language="javascript">spm_initMyMenu(null, spm_getById('dnn_dnnmenu1_ctldnnmenu1'));function onxmlloaddnn_dnnmenu1_ctldnnmenu1() {return m_oSolpartMenu['dnn_dnnmenu1_ctldnnmenu1'].onXMLLoad();}</script></form>
+    
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-353644-5");
+    pageTracker._setDomainName("berseva.iscool.co.il");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+    
+    
+    
+    </body></html>
+
+
+
+    await fetch("https://berseva.iscool.co.il/default.aspx", {
+        "credentials": "include",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "he,en-US;q=0.5",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "Content-Type": "multipart/form-data; boundary=---------------------------19475553672235168829328578982",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache"
+        },
+        "referrer": "https://berseva.iscool.co.il/default.aspx",
+        "body": "-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__EVENTTARGET\"\n\ndnn$ctr689$TimeTableView$btnChangesTable\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__EVENTARGUMENT\"\n\n\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__LASTFOCUS\"\n\n\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__VIEWSTATE\"\n\n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\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__VIEWSTATEGENERATOR\"\n\nCA0B0334\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"dnn$ctr689$TimeTableView$ClassesList\"\n\n50\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"dnn$ctr689$TimeTableView$ControlId\"\n\n\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"dnn$ctr1261$TimeTableView$ClassesList\"\n\n50\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"dnn$ctr1261$TimeTableView$ControlId\"\n\n\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"ScrollTop\"\n\n\n-----------------------------19475553672235168829328578982\nContent-Disposition: form-data; name=\"__dnnVariable\"\n\n\n-----------------------------19475553672235168829328578982--\n",
+        "method": "POST",
+        "mode": "cors"
+    });
